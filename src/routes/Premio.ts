@@ -31,7 +31,7 @@ const premioSchema = new Schema ({
     },{
 
         versionKey: false,
-        timestamps:true,
+        timestamps: true,
 });
 
 export default model("Premio", premioSchema)

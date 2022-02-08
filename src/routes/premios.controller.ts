@@ -3,8 +3,8 @@ import Premio from "./Premio"
 
 export const getPremios: RequestHandler = async (req, res) => {
     try {
-        const videos = await Premio.find();
-        return res.json(videos);
+        const premios = await Premio.find();
+        return res.json(premios);
       } catch (error) {
         res.json(error);
     }
